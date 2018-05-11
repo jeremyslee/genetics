@@ -1,24 +1,12 @@
-# README
+# Genetics
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To set up:
 
-Things you may want to cover:
+```
+rails db:setup
+rails s
+```
 
-* Ruby version
+Then browse to http://0.0.0.0:3000/dnas/1
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+and it should look like https://user-images.githubusercontent.com/10076/39905640-335f5528-5493-11e8-922e-cccaada1051e.png

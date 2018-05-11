@@ -1,0 +1,12 @@
+<style>
+  body {  font-family: monospace; }
+</style>
+<% pair = @dna.pairs.sample %>
+<% max = rand(5) + 6 %>
+<% min = 1 %>
+<% (max).downto(min).each do |i| %>
+  <pre><%= " ".html_safe * (max - i) %><%= pair[:side_1] %><%= '-'* (i * 2) %><%= pair[:side_2] %></pre>
+<% end %>
+<% (min).upto(max).each do |i| %>
+  <pre><%= " ".html_safe * (max - i) %><%= pair[:side_1] %><%= '-'* (i * 2) %><%= pair[:side_2] %></pre>
+<% end %>

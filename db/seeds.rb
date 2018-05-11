@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+dna = Dna.create! name: 'dna'
+dna.pairs.create! side_1: 'C', side_2: 'G'
+dna.pairs.create! side_1: 'A', side_2: 'T'
