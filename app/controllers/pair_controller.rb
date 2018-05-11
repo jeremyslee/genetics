@@ -1,0 +1,2 @@
+class PairController < ApplicationController
+end
